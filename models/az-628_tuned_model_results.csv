@@ -1,0 +1,4 @@
+Model,CV_RMSE,Test_RMSE,Test_R2,Best_Params
+Random Forest Tuned,0.9197091759305847,0.8533697872864945,0.5437902123994737,"{'n_estimators': 500, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 0.3, 'max_depth': 10}"
+SVR Tuned,0.9558953024641138,0.8660726994371056,0.5301072220442795,"{'kernel': 'rbf', 'gamma': 'scale', 'epsilon': 0.2, 'C': 10}"
+XGBoost Tuned,0.8985905075263989,0.8245964301869125,0.5740359249928395,"{'subsample': 0.8, 'reg_lambda': 10, 'reg_alpha': 0.1, 'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.05, 'colsample_bytree': 1.0}"
