@@ -65,16 +65,4 @@ The R² value shows that the model explains approximately **57.4% of the varianc
 - Hyperparameter tuning significantly improves performance
 - XGBoost effectively captures complex gene–drug relationships
 
----
 
-## Visualizations
-
-### True vs Predicted Response
-A scatter plot comparing predicted and true values shows a strong positive correlation, with many points close to the diagonal (ideal predictions). Some spread remains, particularly for extreme values, reflecting the difficulty of modeling outliers in biological data.
-
-### Feature Importance
-XGBoost feature importance highlights the most influential genes for predicting AZ-628 response. Genes such as **LYST, PAWR, and FCGR2A** were among the most important, suggesting potential biological relevance.
-
----
-
-## Repository Structure
